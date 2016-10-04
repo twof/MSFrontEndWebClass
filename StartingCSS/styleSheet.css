@@ -1,0 +1,40 @@
+h1 {
+  font-family: Helvetica;
+  font-size: 2em;
+  color: #ff0000;
+  line-height: 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+body {
+    font-size: 18px;
+    color: #111111;
+    background-color: #efefef;
+    background-attachment: fixed;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.wrapper {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/*Style the HTML meta doc example 4
+Challenge: Use only tag selectors along with descendant and child selectors
+Style your App page
+Challenge: Use only class names
+Try these CSS style properties:
+font-size
+font-family
+color (sets the color of text)
+line-height
+font-weight
+background-color
+background-image
+background-size
+Find some other properties and have fun!*/
