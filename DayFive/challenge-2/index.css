@@ -1,0 +1,38 @@
+.blackBox{
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+.titleBox{
+    background-color: lightgrey;
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.blackBox p{
+    text-align: left;
+    font-size: 1.6em;
+    width: 200px;
+    margin: auto;
+    font-family: serif;
+    padding-top: 75px;
+}
+
+p .fa-twitch{
+    margin-left: 170px;
+}
+
+div.blackBox p{
+    color: white;
+}

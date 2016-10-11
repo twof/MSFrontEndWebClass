@@ -4,10 +4,14 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-button	DayThree/index.js	/^var button = document.getElementById('button');$/;"	v
-isRunning	DayThree/index.js	/^var isRunning = false;$/;"	v
-startTimer	DayThree/index.js	/^function startTimer(){$/;"	f
-stopTimer	DayThree/index.js	/^function stopTimer(){$/;"	f
-time	DayThree/index.js	/^var time = 0;$/;"	v
-timer	DayThree/index.js	/^var timer;$/;"	v
-title	DayThree/index.js	/^var title = document.getElementById('title');$/;"	v
+button	DayThree(Timer)/index.js	/^var button = document.getElementById('button');$/;"	v
+button	DayThree(Timer)/tipCalc.js	/^var button = document.getElementById('getTipButton');$/;"	v
+input	DayThree(Timer)/index.js	/^var input = document.getElementById('input');$/;"	v
+input	DayThree(Timer)/tipCalc.js	/^var input = document.getElementById('input');$/;"	v
+isRunning	DayThree(Timer)/index.js	/^var isRunning = false;$/;"	v
+startTimer	DayThree(Timer)/index.js	/^function startTimer(){$/;"	f
+stopTimer	DayThree(Timer)/index.js	/^function stopTimer(){$/;"	f
+time	DayThree(Timer)/index.js	/^var time = 0;$/;"	v
+timer	DayThree(Timer)/index.js	/^var timer;$/;"	v
+title	DayThree(Timer)/index.js	/^var title = document.getElementById('title');$/;"	v
+title	DayThree(Timer)/tipCalc.js	/^var title = document.getElementById('totalAmmount');$/;"	v

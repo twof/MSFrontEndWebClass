@@ -1,0 +1,67 @@
+.blackBox{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.titleBox{
+    background-color: lightgrey;
+    height: 0px;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    transition: .7s;
+    overflow: hidden;
+}
+
+.tile:hover .titleBox{
+    height: 50px;
+}
+
+.tile:hover .blackBox > p{
+    color: white;
+}
+
+.tile:hover .titleBox > p .fa-twitch{
+    transition-delay: .7s;
+    margin-left: 170px;
+}
+
+p{
+    font-family: serif;
+}
+
+.blackBox > p{
+    text-align: left;
+    font-size: 1.6em;
+    width: 200px;
+    margin: auto;
+    padding-top: 75px;
+    color: transparent;
+    transition: .7s;
+}
+
+.titleBox > p{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+
+p .fa-twitch{
+    margin-left: 300px;
+    transition: .7s;
+}
+
+.tile{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+body.tiles{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}

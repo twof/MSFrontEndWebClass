@@ -1,5 +1,6 @@
 var title = document.getElementById('title');
 var button = document.getElementById('button');
+var input = document.getElementById('input');
 
 title.innerHTML = "0";
 var time = 0;
