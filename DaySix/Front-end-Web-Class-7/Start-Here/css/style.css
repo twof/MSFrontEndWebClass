@@ -1,0 +1,17 @@
+html{
+    width: 1000px;
+}
+
+.product{
+    width: 270px;
+    float: left;
+    margin: 20px;
+}
+
+.title{
+    position: relative;
+    float: right;
+    bottom: 80px;
+    margin-right: 20px;
+    background: rgba(255, 255, 255, 0.5);
+}
