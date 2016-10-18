@@ -24,7 +24,7 @@
     color: white;
 }
 
-.tile:hover .titleBox > p .fa-twitch{
+.tile:hover .titleBox > p > .fa{
     transition-delay: .7s;
     margin-left: 170px;
 }
@@ -50,7 +50,7 @@ p{
     white-space: nowrap;
 }
 
-p .fa-twitch{
+p .fa{
     margin-left: 300px;
     transition: .7s;
 }
@@ -64,4 +64,12 @@ body.tiles{
     width: 1000px;
     display: flex;
     flex-wrap: wrap;
+}
+
+@keyframes slideIn {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
 }
